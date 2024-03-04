@@ -9,8 +9,9 @@ class Kalkulator:
         return a*b
     def degree(a,b):
         return a**b
-Kalkulator().addition()
-Kalkulator().subtraction()
-Kalkulator().division()
-Kalkulator().multiplication()
-Kalkulator().degree()
+alkash=Kalkulator
+alkash.addition(1,2)
+alkash.subtraction(1,2)
+alkash.division(1,2)
+alkash.multiplication(1,2)
+alkash.degree(1,2)
