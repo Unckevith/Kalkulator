@@ -17,3 +17,4 @@ print(alkash.subtraction())
 print(alkash.division())
 print(alkash.multiplication())
 print(alkash.degree())
+123
