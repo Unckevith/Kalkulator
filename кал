@@ -9,9 +9,11 @@ class Kalkulator:
         return a*b
     def degree(a,b):
         return a**b
-alkash=Kalkulator
-alkash.addition(1,2)
-alkash.subtraction(1,2)
-alkash.division(1,2)
-alkash.multiplication(1,2)
-alkash.degree(1,2)
+a=int(input("Первое"))
+b=int(input("Второе"))
+alkash = Kalkulator()  
+print(alkash.addition()) 
+print(alkash.subtraction())
+print(alkash.division())
+print(alkash.multiplication())
+print(alkash.degree())
